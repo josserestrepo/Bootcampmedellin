@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7655" started-at="2017-02-23T01:02:53Z" finished-at="2017-02-23T01:03:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7655" started-at="2017-02-23T01:02:53Z" finished-at="2017-02-23T01:03:00Z">
+      <class name="Tests.LaunchDriver">
+        <test-method status="PASS" signature="launchDriverChain()[pri:0, instance:Tests.LaunchDriver@d9345cd]" name="launchDriverChain" duration-ms="7614" started-at="2017-02-22T20:02:53Z" finished-at="2017-02-22T20:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriverChain -->
+      </class> <!-- Tests.LaunchDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
