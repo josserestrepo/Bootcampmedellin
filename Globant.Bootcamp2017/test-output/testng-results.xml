@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="78" started-at="2017-02-24T01:04:19Z" finished-at="2017-02-24T01:04:19Z">
+    <groups>
+      <group name="group2">
+        <method signature="validateAnnotations.openBrowser()[pri:1, instance:com.automationpractice.validateAnnotations@29774679]" name="openBrowser" class="com.automationpractice.validateAnnotations"/>
+        <method signature="validateAnnotations.login(java.lang.String)[pri:2, instance:com.automationpractice.validateAnnotations@29774679]" name="login" class="com.automationpractice.validateAnnotations"/>
+        <method signature="validateAnnotations.signUp()[pri:3, instance:com.automationpractice.validateAnnotations@29774679]" name="signUp" class="com.automationpractice.validateAnnotations"/>
+        <method signature="validateAnnotations.search()[pri:4, instance:com.automationpractice.validateAnnotations@29774679]" name="search" class="com.automationpractice.validateAnnotations"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="validateAnnotations.signUp()[pri:3, instance:com.automationpractice.validateAnnotations@29774679]" name="signUp" class="com.automationpractice.validateAnnotations"/>
+        <method signature="validateAnnotations.search()[pri:4, instance:com.automationpractice.validateAnnotations@29774679]" name="search" class="com.automationpractice.validateAnnotations"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Regression1" duration-ms="78" started-at="2017-02-24T01:04:19Z" finished-at="2017-02-24T01:04:19Z">
+      <class name="com.automationpractice.validateAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.automationpractice.validateAnnotations@29774679]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2017-02-23T20:04:19Z" finished-at="2017-02-23T20:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automationpractice.validateAnnotations@29774679]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-02-23T20:04:19Z" finished-at="2017-02-23T20:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:com.automationpractice.validateAnnotations@29774679]" name="openBrowser" duration-ms="13" started-at="2017-02-23T20:04:19Z" description="This test open the browser" finished-at="2017-02-23T20:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:2, instance:com.automationpractice.validateAnnotations@29774679]" name="login" duration-ms="4" started-at="2017-02-23T20:04:19Z" depends-on-methods="com.automationpractice.validateAnnotations.openBrowser" finished-at="2017-02-23T20:04:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jacinto]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="signUp()[pri:3, instance:com.automationpractice.validateAnnotations@29774679]" name="signUp" duration-ms="2" started-at="2017-02-23T20:04:19Z" finished-at="2017-02-23T20:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="search()[pri:4, instance:com.automationpractice.validateAnnotations@29774679]" name="search" duration-ms="2" started-at="2017-02-23T20:04:19Z" finished-at="2017-02-23T20:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automationpractice.validateAnnotations@29774679]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-02-23T20:04:19Z" finished-at="2017-02-23T20:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.automationpractice.validateAnnotations@29774679]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-02-23T20:04:19Z" finished-at="2017-02-23T20:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.automationpractice.validateAnnotations -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
